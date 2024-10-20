@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(images/pfp1.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+nav{
+    display: flex; 
+    padding: 2% 6%;
+    justify-content: flex-end;
+    align-items: left;
+}
+nav img{
+    width: 150px;
+
+}
+nav li{
+    height: 40px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+}
+nav li:first-child{
+    margin-right: auto;
+}
+
+
+.nav-links{
+    flex: 1;
+    text-align: center;
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #ffffff;
+    text-decoration: solid;
+    font-weight: 500;
+    font-size: 15px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:rgba(243, 27, 196, 0.776);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+
+}
+.text-box{
+    width: 90%;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.text-box h1{
+    font-size: 70px;
+    color: white;
+    font-family: "Cookie";
+    font-weight: 400;
+    font-style: normal;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 17px;
+    font-weight: 300;
+    color:#ffffff;
+    
+}
+
+h1{
+    font-size: 65px;
+    font-weight: 400;
+    font-family: "Cookie";
+    
+    font-style: normal;
+
+}
+p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.join{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(215, 63, 169, 0.3),rgba(204, 24, 111, 0.3)), url(images/ast2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+
+}
+.join h1{
+    padding: 0;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Cookie";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    
+}
+.footer{
+   width: 100%;
+   text-align: center;
+   padding: 30px 0; 
+  
+}
+.footer h4{
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: "Cookie";
+    font-weight: 400;
+    font-style: normal;
+}
+.icons{
+    color: rgb(134, 17, 17);
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa-heart{
+    color: rgb(189, 18, 18);
+}
+
+
+
+.about-us{
+    width:80%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+.about-col{
+    flex-basis:48%;
+    padding: 30px 2px;
+   
+}
+.about-col img{
+    width: 100%;
+    
+
+}
+.about-col h1{
+    padding-top: 5px;
+}
+.about-col p{
+    padding:15px 0 25px;
+}
+
+
+#bl-s{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0,0,0,0.05); 
+
+}
+.bl-h{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+
+}
+.bl-h span{
+    color:rgb(18, 126, 126)
+}
+.bl-h h3{
+    font-size: 2.4rem;
+    color:#2b2b2b;
+    font-weight:400;
+    font-family: "Cookie";
+    font-style: normal;
+    font-size: 60px;
+
+
+}
+.bl-con{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+
+}
+.bl-box{
+    width: 350px;
+    color:rgb(24, 158, 158);
+    border: 1px solid #ececec;
+    margin: 20px;
+
+}
+.bl-img{
+    width: 100%;
+    height: auto;
+
+}
+.bl-img img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.bl-text{
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+}
+.bl-text span{
+    color:rgb(18, 126, 126);
+    font-size: 0.9rem;
+
+}
+.bl-text .bl-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+    margin-top: 5px;
+}
+.bl-text .bl-title:hover{
+    color:rgb(186, 26, 117);
+    transition: all ease 0.3s;
+}
+.bl-text p{
+    color:rgba(0, 0, 0, 0.475);
+    font-size: 0.9rem;
+    display: flex;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+.bl-text a{
+    color:#000000;
+    transition:0.5s;
+}
+.bl-text a:hover{
+    color:rgb(18, 126, 126);
+
+}
