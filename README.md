@@ -1,4 +1,4 @@
-# 🌐 Personal Portfolio Website
+# Personal Portfolio Website
 
 A clean and responsive **HTML & CSS** portfolio website designed to present my skills, projects, and contact details in an elegant and accessible way.
 
@@ -32,10 +32,4 @@ Built with only **HTML** and **CSS**, it demonstrates layout, styling, and respo
 - *(Optional)* **Google Fonts / Font Awesome** – for typography and icons  
 
 ---
-
-## 🚀 How to Run Locally
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/portfolio.git
 
